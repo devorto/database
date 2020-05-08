@@ -1,0 +1,29 @@
+{
+    "name": "devorto/database",
+    "description": "Simple database interface with different implementations.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Devorto",
+            "homepage": "https://www.devorto.com",
+            "email": "info@devorto.com",
+            "role": "Owner"
+        },
+        {
+            "name": "Geoffrey Dijkstra",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "suggest": {
+        "ext-sqlsrv": "Needed when using SQLSRV implementation."
+    },
+    "autoload": {
+        "psr-4": {
+            "Devorto\\Database\\": "src"
+        }
+    }
+}
